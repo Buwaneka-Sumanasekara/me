@@ -1,7 +1,17 @@
 @import "../../theme/index.scss";
 
 .about {
-    .info-left p {
-        color: $secondary
+    color: $secondary;
+
+    .info-left {
+        svg {
+            width: 80px;
+            height: 80px;
+
+            path {
+                fill: $secondary
+            }
+        }
+
     }
 }
