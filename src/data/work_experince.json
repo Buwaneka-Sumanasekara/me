@@ -1,0 +1,29 @@
+{
+    "experience": [
+        {
+            "company": "Interlective Pvt Ltd",
+            "logo": "",
+            "duration": {
+                "start": "2018-02-01",
+                "end": "-"
+            },
+            "web": "https://interlective.com/",
+            "tech": [
+                "Laravel/PHP",
+                "React",
+                "React Native",
+                "Wordpress",
+                "Node"
+            ],
+            "points": [
+                "Mobile application development projects",
+                "WordPress plugin developments",
+                "PWA Application developments",
+                "Project estimation and project initiation",
+                "Work with software development and testing",
+                "Lead Team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance requirements.",
+                "Develop UI component library using Storybook"
+            ]
+        }
+    ]
+}

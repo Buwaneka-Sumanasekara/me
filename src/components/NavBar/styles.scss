@@ -1,0 +1,18 @@
+@import "../../theme/index.scss";
+
+.nav-bar {
+    background-color: $primary;
+    padding-left: $padding-default;
+    padding-right: $padding-default;
+    border-radius: $default-border-radius;
+    display: flex;
+    justify-content: center;
+
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        background-color: transparent;
+        align-self: center;
+        padding: $padding-default;
+        justify-content: space-evenly;
+    }
+}
