@@ -2,9 +2,9 @@ import React from "react";
 
 
 
-const About = () => {
+const WorkPage = () => {
     return null
 }
 
 
-export default About;
+export default WorkPage;

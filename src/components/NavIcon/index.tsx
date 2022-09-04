@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./styles.scss"
-import { ReactComponent as EmailIcon } from '../../images/email.svg';
-import { ReactComponent as LinkdinIcon } from '../../images/linkdin.svg';
-import { ReactComponent as PhoneIcon } from '../../images/phone.svg';
-import { ReactComponent as Whatsapp } from '../../images/whatsapp.svg';
-import { ReactComponent as Link } from '../../images/link.svg';
+import { ReactComponent as EduIcon } from '../../images/edu.svg';
+import { ReactComponent as InfoIcon } from '../../images/info.svg';
+import { ReactComponent as WorkIcon } from '../../images/work.svg';
+import { ReactComponent as ProjectIcon } from '../../images/project.svg';
+import { ReactComponent as People } from '../../images/people.svg';
 import NavigationKeys from "../../navigation/NavigationKeys";
 
 type NavIconIconProps = {
@@ -19,11 +19,11 @@ const NavIcon = (props: NavIconIconProps) => {
 
 
     return <div className={`nav-but ${isActive ? "active" : ""}`}><NavLink to={to}>
-        {to === NavigationKeys.HOME && <EmailIcon />}
-        {to === NavigationKeys.EDUCATION && <EmailIcon />}
-        {to === NavigationKeys.WORK_EXPERIENCE && <EmailIcon />}
-        {to === NavigationKeys.PROJECTS && <EmailIcon />}
-        {to === NavigationKeys.RECOMMENDATIONS && <EmailIcon />}
+        {to === NavigationKeys.HOME && <InfoIcon />}
+        {to === NavigationKeys.EDUCATION && <EduIcon />}
+        {to === NavigationKeys.WORK_EXPERIENCE && <WorkIcon />}
+        {to === NavigationKeys.PROJECTS && <ProjectIcon />}
+        {to === NavigationKeys.RECOMMENDATIONS && <People />}
     </NavLink></div>
 
 }

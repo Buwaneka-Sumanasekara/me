@@ -5,7 +5,9 @@ import MainLayout from '../layout/Wrapper'
 import Nav from './NavigationKeys'
 
 //lazy load the different routes
-const About = React.lazy(() => import('../pages/About'))
+const About = React.lazy(() => import('../pages/about'))
+const Work = React.lazy(() => import('../pages/work'))
+const Projects = React.lazy(() => import('../pages/projects'))
 
 type RouteProps = {
     path?: string
@@ -21,7 +23,15 @@ const myRoutes: RouteProps[] = [
     },
     {
         path: Nav.WORK_EXPERIENCE,
+        component: <Work />,
+    },
+    {
+        path: Nav.EDUCATION,
         component: <About />,
+    },
+    {
+        path: Nav.PROJECTS,
+        component: <Projects />,
     }
 ]
 
@@ -42,9 +52,7 @@ const NavigationStack = () => {
         <BrowserRouter>
             <MainLayout>
                 <React.Suspense fallback={<Loader />}>
-
                     <Routes>{routes} </Routes>
-
                 </React.Suspense>
             </MainLayout>
         </BrowserRouter>
