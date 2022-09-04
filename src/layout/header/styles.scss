@@ -1,0 +1,69 @@
+@import "../../theme/index.scss";
+
+.header {
+    color: $secondary;
+
+    #header-intro-mobile {
+        display: none;
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+        }
+    }
+
+
+
+    #header-prof-pic {
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            text-align: center;
+        }
+    }
+
+
+    #header-intro-desktop {
+        display: block;
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: none;
+        }
+    }
+
+
+
+
+
+
+    #header-intro-sub {
+
+        h1,
+        h4 {
+            display: inline;
+            vertical-align: middle;
+
+        }
+
+        h1 {
+            color: $primary;
+            font-weight: bold
+        }
+
+        h4 {
+            color: $secondary;
+
+        }
+
+    }
+
+    #header-intro-contacts {
+        display: flex;
+        justify-content: space-around;
+
+        @media (min-width:768px) {
+            justify-content: flex-start;
+
+            .contact-button {
+                margin-right: 10px;
+            }
+        }
+    }
+}

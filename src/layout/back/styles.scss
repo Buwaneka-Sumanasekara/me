@@ -1,0 +1,18 @@
+@import "../../theme/index.scss";
+
+
+
+.img-background {
+    position: absolute;
+    justify-items: center;
+    z-index: -1000;
+    left: 50%;
+    top: 40%;
+
+    .img-eclipse-1 {
+        path {
+            fill: $primary ;
+        }
+
+    }
+}
