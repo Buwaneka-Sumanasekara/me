@@ -39,13 +39,15 @@ const NavigationStack = () => {
 
 
     return (
-        <MainLayout>
-            <React.Suspense fallback={<Loader />}>
-                <BrowserRouter>
+        <BrowserRouter>
+            <MainLayout>
+                <React.Suspense fallback={<Loader />}>
+
                     <Routes>{routes} </Routes>
-                </BrowserRouter>
-            </React.Suspense>
-        </MainLayout>
+
+                </React.Suspense>
+            </MainLayout>
+        </BrowserRouter>
     )
 }
 

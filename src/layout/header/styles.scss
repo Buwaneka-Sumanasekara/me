@@ -54,16 +54,5 @@
 
     }
 
-    #header-intro-contacts {
-        display: flex;
-        justify-content: space-around;
 
-        @media (min-width:768px) {
-            justify-content: flex-start;
-
-            .contact-button {
-                margin-right: 10px;
-            }
-        }
-    }
 }

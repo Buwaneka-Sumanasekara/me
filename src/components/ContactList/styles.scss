@@ -1,0 +1,18 @@
+#contacts {
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (min-width:768px) {
+        justify-content: flex-start;
+
+        .contact-button {
+            margin-right: 10px;
+        }
+    }
+}
+
+.hide {
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        display: none !important;
+    }
+}

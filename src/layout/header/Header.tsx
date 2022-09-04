@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import ContactIcon from "../../components/ContactIcon";
+import ContactList from "../../components/ContactList";
+import NavBar from "../../components/NavBar";
 import ProfilePic from "../../components/ProfilePic/ProfilePic";
 
 import BasicInfo from '../../data/basic_info.json';
@@ -12,12 +13,8 @@ const HeaderInfo = () => {
     return <React.Fragment>
         <h2>{"Hello"}</h2>
         <div id={"header-intro-sub"}><h4>{"I'm "}</h4><h1>{BasicInfo.displayName}</h1></div>
-        <div id={"header-intro-contacts"} className={"py-3"}>
-            <ContactIcon type="phone" value={BasicInfo.contacts.mobile} />
-            <ContactIcon type="email" value={BasicInfo.contacts.email} />
-            <ContactIcon type="whatsapp" value={BasicInfo.contacts.mobile} />
-            <ContactIcon type="linkdin" value={BasicInfo.contacts.linkdin} />
-        </div>
+        <ContactList showOnMobile={false} />
+        <NavBar />
     </React.Fragment>
 }
 
