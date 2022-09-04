@@ -1,5 +1,5 @@
 export default {
-    HOME: '/',
+    HOME: '/me',
     WORK_EXPERIENCE: '/work-experience',
     EDUCATION: '/education',
     PROJECTS: '/projects',
