@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Loader from '../components/Loader'
 import MainLayout from '../layout/Wrapper'
 import Nav from './NavigationKeys'
@@ -49,13 +49,13 @@ const NavigationStack = () => {
 
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <MainLayout>
                 <React.Suspense fallback={<Loader />}>
                     <Routes>{routes} </Routes>
                 </React.Suspense>
             </MainLayout>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

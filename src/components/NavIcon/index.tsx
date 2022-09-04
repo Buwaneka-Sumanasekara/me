@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./styles.scss"
 import { ReactComponent as EduIcon } from '../../images/edu.svg';
 import { ReactComponent as InfoIcon } from '../../images/info.svg';
@@ -18,13 +18,13 @@ const NavIcon = (props: NavIconIconProps) => {
 
 
 
-    return <div className={`nav-but ${isActive ? "active" : ""}`}><NavLink to={to}>
+    return <div className={`nav-but ${isActive ? "active" : ""}`}><Link to={to}>
         {to === NavigationKeys.HOME && <InfoIcon />}
         {to === NavigationKeys.EDUCATION && <EduIcon />}
         {to === NavigationKeys.WORK_EXPERIENCE && <WorkIcon />}
         {to === NavigationKeys.PROJECTS && <ProjectIcon />}
         {to === NavigationKeys.RECOMMENDATIONS && <People />}
-    </NavLink></div>
+    </Link></div>
 
 }
 
