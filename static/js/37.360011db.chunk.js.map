@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/37.360011db.chunk.js","mappings":"2IASA,UALiB,WACb,OAAO,IACV,C","sources":["pages/projects/index.tsx"],"sourcesContent":["import React from \"react\";\n\n\n\nconst WorkPage = () => {\n    return null\n}\n\n\nexport default WorkPage;\n"],"names":[],"sourceRoot":""}
