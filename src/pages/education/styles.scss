@@ -1,0 +1,21 @@
+@import "../../theme/index.scss";
+
+.page {
+    color: $secondary;
+
+    .info-left {
+        svg {
+            width: 80px;
+            height: 80px;
+
+            path {
+                fill: $secondary
+            }
+        }
+
+    }
+
+    .work-sub-steps {
+        margin-left: 40px;
+    }
+}

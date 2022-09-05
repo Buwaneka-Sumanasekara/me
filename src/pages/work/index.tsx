@@ -12,7 +12,7 @@ const WorkPage = () => {
         </Col>
         <Col md={6} className={"px-5"}>
             <Steps direction="vertical">
-                {WorkInfo.experience.map((value, index) => (
+                {WorkInfo.map((value, index) => (
                     <Steps.Item key={`work_${index}`}>
 
                         <h3>{value.company}</h3>

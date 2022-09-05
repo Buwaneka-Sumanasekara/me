@@ -21,8 +21,11 @@ type StepItemProps = {
 }
 Steps.Item = function StepItem({ children }: StepItemProps) {
     return <div className="step-item">
-        <div className="step-item-icon"></div>
-        <div className="step-item-line"></div>
+        <div className="step-left">
+            <div className="step-item-icon"></div>
+            <div className="step-item-line"></div>
+        </div>
+
         <div className="step-item-child-wrapper">
             {children}
         </div>
