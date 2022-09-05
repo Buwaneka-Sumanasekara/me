@@ -12,7 +12,7 @@
 
         .step-left {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
         }
 
         .step-item-child-wrapper {
@@ -27,9 +27,10 @@
         }
 
         .step-item-line {
-            border-width: 1px;
-            border-style: double;
-            border-color: $primary;
+            border-width: 0;
+            border-left-width: 2px;
+            border-style: solid;
+            border-left-color: $primary;
             margin-left: -10px;
             margin-right: $padding-default;
         }
@@ -48,11 +49,10 @@
 }
 
 .secondary {
-    color: $secondary;
+    color: $secondary  !important;
 
     .step-item-line {
         border-color: $secondary  !important;
-
     }
 
     .step-item-icon {
