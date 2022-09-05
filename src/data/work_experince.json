@@ -1,28 +1,66 @@
 {
     "experience": [
         {
-            "company": "Interlective Pvt Ltd",
+            "company": "Interlective",
+            "designations": [
+                {
+                    "title": "Senior Software Engineer",
+                    "from": "2022",
+                    "to": "2022"
+                }
+            ],
             "logo": "",
-            "duration": {
-                "start": "2018-02-01",
-                "end": "-"
-            },
             "web": "https://interlective.com/",
             "tech": [
-                "Laravel/PHP",
                 "React",
                 "React Native",
+                "Laravel/PHP",
                 "Wordpress",
                 "Node"
+            ]
+        },
+        {
+            "company": "Software Stylers",
+            "designations": [
+                {
+                    "title": "Senior Software Engineer",
+                    "from": "2022",
+                    "to": "2022"
+                },
+                {
+                    "title": "Software Engineer",
+                    "from": "2022",
+                    "to": "2022"
+                }
             ],
-            "points": [
-                "Mobile application development projects",
-                "WordPress plugin developments",
-                "PWA Application developments",
-                "Project estimation and project initiation",
-                "Work with software development and testing",
-                "Lead Team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance requirements.",
-                "Develop UI component library using Storybook"
+            "logo": "",
+            "web": "https://interlective.com/",
+            "tech": [
+                "Scala",
+                "Play framework",
+                "Delphi"
+            ]
+        },
+        {
+            "company": "MyPOS Software Solutions",
+            "designations": [
+                {
+                    "title": "Software Developer",
+                    "from": "2022",
+                    "to": "2022"
+                },
+                {
+                    "title": "Trainee Software Developer",
+                    "from": "2022",
+                    "to": "2022"
+                }
+            ],
+            "logo": "",
+            "web": "https://interlective.com/",
+            "tech": [
+                "Scala",
+                "Play framework",
+                "Delphi"
             ]
         }
     ]
