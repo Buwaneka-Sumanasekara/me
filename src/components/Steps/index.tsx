@@ -8,9 +8,10 @@ import "./styles.scss"
 type StepsProps = {
     direction: "horizontal" | "vertical",
     children: React.ReactNode
+    theme?: "primary" | "secondary"
 }
-export default function Steps({ direction, children }: StepsProps) {
-    return (<div className={`steps ${(direction === "horizontal" ? 'horizontal' : "vertical")}`}>
+export default function Steps({ direction, children, theme }: StepsProps) {
+    return (<div className={`steps ${(direction === "horizontal" ? 'horizontal' : "vertical")} ${(theme === "secondary" ? "secondary" : "")}`}>
         {children}
     </div>)
 }

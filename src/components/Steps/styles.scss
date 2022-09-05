@@ -2,14 +2,17 @@
 
 .steps {
     display: flex;
+    color: $primary;
 
     .step-item {
+
         border: 0;
         display: flex;
         min-height: 50px;
 
         .step-item-child-wrapper {
             margin-bottom: $padding-default*2;
+            justify-content: flex-start;
         }
 
         .step-item-icon {
@@ -25,8 +28,6 @@
             border-color: $primary;
             margin-left: -10px;
             margin-right: $padding-default;
-
-
         }
     }
 
@@ -40,5 +41,17 @@
 
 .vertical {
     flex-direction: column;
+}
 
+.secondary {
+    color: $secondary;
+
+    .step-item-line {
+        border-color: $secondary  !important;
+
+    }
+
+    .step-item-icon {
+        background-color: $secondary  !important;
+    }
 }
