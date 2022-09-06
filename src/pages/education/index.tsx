@@ -14,7 +14,10 @@ const EducationPage = () => {
             <Steps direction="vertical">
                 {EduInfo.map((value, index) => (
                     <Steps.Item key={`work_${index}`}>
-                        <h4>{value.name}</h4>
+                        <h3>{value.qualification}</h3>
+                        <strong>{value.award}</strong>
+                        <p>{value.name}</p>
+                        <label>{value.year}</label>
                     </Steps.Item>
                 ))}
 
