@@ -7,6 +7,7 @@ import { ReactComponent as ProjectIcon } from '../../images/project.svg';
 
 import Button from 'react-bootstrap/Button';
 import FilterButtonIcon from "../../components/FilterButtons";
+import ContactIcon from "../../components/ContactIcon";
 
 
 
@@ -42,8 +43,18 @@ const ProjectPage = () => {
                 <Col>
                     {filtered.map((item, index) => (
                         <div className="item">
-                            <h3>{item.title}</h3>
-                            <label><strong>{item.subtitle}</strong></label><br />
+                            <Row>
+                                <Col sm={8}>
+                                    <h3>{item.title}</h3>
+                                    <label><strong>{item.subtitle}</strong></label>
+                                </Col>
+                                <Col sm={4}>
+                                    {item.link && (
+                                        <ContactIcon type="link" value={item.link} newTab />
+                                    )}
+
+                                </Col>
+                            </Row>
                             <label className="item-tag-caption">{`Key Technologies / Frameworks used:`}</label>
                             <div className={"item-tags"}>
                                 {item.tech.map((item: string, index) => (

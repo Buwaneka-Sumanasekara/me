@@ -11,7 +11,7 @@
         ],
         "type": "mobile",
         "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
-        "link": ""
+        "link": "https://www.gotradie.com.au/"
     },
     {
         "title": "Mx Mobi",
@@ -109,6 +109,7 @@
             "Typescript",
             "React Query"
         ],
+        "link": "https://app.gotradie.com.au/login",
         "type": "web",
         "des": "This is the Web version of the gotraide app. In this project we have implemented Gotradie Chat application, Team Member management and business profile management options mainly"
     },
@@ -141,6 +142,7 @@
             "GraphQL"
         ],
         "type": "web",
+        "link": "https://iot.bridgealliance.com/login",
         "des": "This is a web portal which allows users to manage their article posts and member management"
     },
     {

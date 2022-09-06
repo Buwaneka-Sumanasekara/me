@@ -9,6 +9,7 @@ const About = React.lazy(() => import('../pages/about'))
 const Work = React.lazy(() => import('../pages/work'))
 const Projects = React.lazy(() => import('../pages/projects'))
 const Education = React.lazy(() => import('../pages/education'))
+const Recommendation = React.lazy(() => import('../pages/recommendations'))
 
 type RouteProps = {
     path?: string
@@ -33,6 +34,10 @@ const myRoutes: RouteProps[] = [
     {
         path: Nav.PROJECTS,
         component: <Projects />,
+    },
+    {
+        path: Nav.RECOMMENDATIONS,
+        component: <Recommendation />,
     }
 ]
 

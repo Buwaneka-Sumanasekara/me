@@ -8,11 +8,12 @@ import { ReactComponent as Link } from '../../images/link.svg';
 
 type ContactIconProps = {
     value: string,
-    type: "email" | "phone" | "link" | "whatsapp" | "linkdin"
+    type: "email" | "phone" | "link" | "whatsapp" | "linkdin",
+    newTab?: boolean
 }
 
 const ContactIcon = (props: ContactIconProps) => {
-    const { type, value } = props;
+    const { type, value, newTab } = props;
 
     function generateLink() {
         if (type === "email") {
@@ -26,7 +27,7 @@ const ContactIcon = (props: ContactIconProps) => {
         }
     }
 
-    return <a href={generateLink()}>
+    return <a href={generateLink()} target={`${newTab ? "_blank" : "_top"}`}>
         <div className="contact-button">
             {type === "email" && <EmailIcon />}
             {type === "phone" && <PhoneIcon />}

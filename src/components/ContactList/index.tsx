@@ -9,7 +9,7 @@ type ContactListProps = {
 
 const ContactList = (props: ContactListProps) => {
     const { showOnMobile } = props;
-    return <div id={`contacts`} className={`py-3 ${showOnMobile ? "" : "hide"}`}>
+    return <div id={`contacts`} className={`py-3 ${showOnMobile ? "show" : "hide"}`}>
         <ContactIcon type="phone" value={BasicInfo.contacts.mobile} />
         <ContactIcon type="email" value={BasicInfo.contacts.email} />
         <ContactIcon type="whatsapp" value={BasicInfo.contacts.mobile} />
