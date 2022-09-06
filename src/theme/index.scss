@@ -2,5 +2,20 @@
 
 $padding-default: 15px;
 $padding-nav: 20px;
+$padding-item: 40px;
 
-$default-border-radius: 8px
+$default-border-radius: 8px;
+
+.btn:hover,
+.btn:after {
+    background-color: $primary;
+}
+
+.btn-primary {
+    background-color: $primary;
+}
+
+
+.bg-primary {
+    background-color: $primary  !important;
+}

@@ -1,27 +1,37 @@
 import React, { ReactElement } from "react";
 
 
-type StepProps = {
-    title?: string,
-    body: ReactElement,
-}
+import "./styles.scss"
 
-const Step = (props: StepProps) => {
-
-    return (
-        <div>
-
-        </div>
-    )
-}
 
 
 type StepsProps = {
-    data: StepProps[],
-    direction: "horizontal" | "vertical"
+    direction: "horizontal" | "vertical",
+    children: React.ReactNode
+    theme?: "primary" | "secondary"
 }
-const Steps = (props: StepsProps) => {
-    return
+export default function Steps({ direction, children, theme }: StepsProps) {
+    return (<div className={`steps ${(direction === "horizontal" ? 'horizontal' : "vertical")} ${(theme === "secondary" ? "secondary" : "")}`}>
+        {children}
+    </div>)
 }
 
-export default Steps;
+type StepItemProps = {
+    children: React.ReactNode
+}
+Steps.Item = function StepItem({ children }: StepItemProps) {
+    return <div className="step-item">
+        <div className="step-left">
+            <div className="step-item-icon"></div>
+            <div className="step-item-line"></div>
+        </div>
+
+        <div className="step-item-child-wrapper">
+            {children}
+        </div>
+
+    </div>;
+};
+
+
+

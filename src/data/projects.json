@@ -1,0 +1,223 @@
+[
+    {
+        "title": "GoTradie Mobile App",
+        "subtitle": "Gotradie | Australia",
+        "tech": [
+            "React Native",
+            "React Query",
+            "AWS cognito",
+            "IOS",
+            "Android"
+        ],
+        "type": "mobile",
+        "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
+        "link": ""
+    },
+    {
+        "title": "Mx Mobi",
+        "subtitle": "FinTech Crowd | UK",
+        "tech": [
+            "React Native",
+            "Redux",
+            "IOS",
+            "Android"
+        ],
+        "type": "mobile",
+        "des": "This is a money transfer app which allows to send money to selected countries from United Kingdom. And Its allowed to maintain your own beneficiaries and identities",
+        "link": "https://apps.apple.com/us/app/id1475228743"
+    },
+    {
+        "title": "Remittell",
+        "subtitle": "Remittell Money Ltd | UK",
+        "tech": [
+            "React Native",
+            "Redux",
+            "IOS",
+            "Android"
+        ],
+        "type": "mobile",
+        "des": "This is a money transfer app which allows to send money to selected countries from United Kingdom. And Its allowed to maintain your own beneficiaries and identities",
+        "link": "https://apps.apple.com/us/app/id1555636971"
+    },
+    {
+        "title": "Fauzia's Kitchen Fun",
+        "subtitle": "Fauzia's Kitchen Fun",
+        "tech": [
+            "React Native",
+            "Redux",
+            "IOS",
+            "Android"
+        ],
+        "type": "mobile",
+        "des": "This is recipe app which allows users to access thousands of Free and premium recipes. This app includes Google wallet, Apple pay implementation for subscriptions",
+        "link": "https://play.google.com/store/apps/details?id=com.interlective.fkf&hl=en"
+    },
+    {
+        "title": "Leap",
+        "subtitle": "Al Istiqamah Mosque | Singapore",
+        "tech": [
+            "React Native",
+            "Redux",
+            "IOS",
+            "Android"
+        ],
+        "type": "mobile",
+        "des": "Leap Initiative is a new programme developed by the Social Development Centre in conjunction with the Islamic Religious Council Singapore (MUIS) to provide you and your family with the support and resources to help you thrive.",
+        "link": "https://leapinitiative.sg/"
+    },
+    {
+        "title": "Fetch Me",
+        "subtitle": "Fetch Me | Singapore",
+        "tech": [
+            "React Native",
+            "Redux",
+            "IOS",
+            "Android",
+            "Stripe Payment gateway"
+        ],
+        "type": "mobile",
+        "des": "Fetch me is a delivery app which allows to register fetchers and buyers in a sames app. This includes stripe payment integration and verified fetcher options. Buyer can simple place a order with pick up place and delivery please and instruction etc and try the order receiving process when it connected with a fetcher",
+        "link": "https://www.facebook.com/fetchmesg"
+    },
+    {
+        "title": "EFL Marketing dashboard",
+        "subtitle": "EFL | Sri Lanka",
+        "tech": [
+            "Laravel - PHP",
+            "MySQL",
+            "Bootsrap"
+        ],
+        "type": "web",
+        "des": "This project done based on EFL's requirement. They wanted a dashboard which showing the overall status of their offices country wise based on the information they feed of each offices. Using this application they will get important decisions for their overall shipments. Each area's current situation and weather information will be taken each week through their offices and validate them through the workflow approval level. Finally approved information will process update dashboard realtime. Also they will notify it via email along with generated PDF report to their clients around the world based on their prefer area. "
+    },
+    {
+        "title": "GoTradie Storybook component library",
+        "subtitle": "Gotradie | Australia",
+        "tech": [
+            "React Native Web",
+            "Storybook",
+            "npm"
+        ],
+        "type": "plugin",
+        "des": "This is a component library which was build specifically for gotradie project. These components will reuse as component library to their mobile and web projects"
+    },
+    {
+        "title": "GoTradie Web App",
+        "subtitle": "Gotradie | Australia",
+        "tech": [
+            "React Native Web",
+            "Typescript",
+            "React Query"
+        ],
+        "type": "web",
+        "des": "This is the Web version of the gotraide app. In this project we have implemented Gotradie Chat application, Team Member management and business profile management options mainly"
+    },
+    {
+        "title": "GoTradie Invite microsite",
+        "subtitle": "Gotradie | Australia",
+        "tech": [
+            "React Native Web",
+            "React Query"
+        ],
+        "type": "web",
+        "des": "This is a web application which handle user registrations via invite link"
+    },
+    {
+        "title": "GoTradie profile microsite",
+        "subtitle": "Gotradie | Australia",
+        "tech": [
+            "React Native Web",
+            "React Query"
+        ],
+        "type": "web",
+        "des": "This is a web application which shows relevant business profile",
+        "link": "https://profiles.gotradie.com.au/gotradie-admin-1"
+    },
+    {
+        "title": "Bridge Alliance Portal",
+        "subtitle": "Bridge Alliance",
+        "tech": [
+            "React JS",
+            "GraphQL"
+        ],
+        "type": "web",
+        "des": "This is a web portal which allows users to manage their article posts and member management"
+    },
+    {
+        "title": "Bridge Alliance Wordpress Plugin",
+        "subtitle": "Bridge Alliance",
+        "tech": [
+            "GraphQL",
+            "PHP",
+            "Wordpress",
+            "Wordpress Plugin development"
+        ],
+        "type": "plugin",
+        "des": "This is the wordpress plugin which manage all backend API's for portal"
+    },
+    {
+        "title": "Mountaintop online POS",
+        "subtitle": "Mountaintop Systems | Australia",
+        "tech": [
+            "Scala",
+            "Play framework",
+            "AWS EC2",
+            "MySQL"
+        ],
+        "type": "web",
+        "des": "This is a online Point of sales system which has invoicing, ordering , stock management along with more features. This app used multi-tenancy architecture which has only one application but it handled different businesses using multiple independent databases"
+    },
+    {
+        "title": "Mountaintop Accounting System",
+        "subtitle": "Mountaintop | Australia",
+        "tech": [
+            "Scala",
+            "Play framework",
+            "AWS EC2",
+            "MySQL"
+        ],
+        "type": "web",
+        "des": "This is a basic accounting system specifically build for small businesses"
+    },
+    {
+        "title": "MyPOS Point of Sales application",
+        "subtitle": "MyPOS Software Solutions | Sri Lanka",
+        "tech": [
+            "Java",
+            "MySQL"
+        ],
+        "type": "desktop",
+        "des": "This is a point of sales system I have developed when I was worked at myPOS Software solutions"
+    },
+    {
+        "title": "BiZ",
+        "subtitle": "Point of Sales Application",
+        "tech": [
+            "Java",
+            "MySQL"
+        ],
+        "type": "desktop",
+        "des": "This is a point of sales system I have developed for the Spare parts sales shop"
+    },
+    {
+        "title": "Microsoft Nav Integration",
+        "subtitle": "MyPOS Software Solutions | Sri Lanka",
+        "tech": [
+            "C#",
+            "MySQL"
+        ],
+        "type": "desktop",
+        "des": "This is data transfer application for MyPOS point of sales system and Microsoft Nav ERP"
+    },
+    {
+        "title": "Dialog Star points Integration tool",
+        "subtitle": "MyPOS Software Solutions | Sri Lanka",
+        "tech": [
+            "Java",
+            "MySQL",
+            "Java REST Client"
+        ],
+        "type": "desktop",
+        "des": "This is a application for integrating Dialog star points (loyalty points schema) with MyPOS point of sales application"
+    }
+]

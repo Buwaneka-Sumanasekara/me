@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Badge, Col, Row } from "react-bootstrap";
 import "./styles.scss"
 import BasicInfo from "../../data/basic_info.json";
 import { ReactComponent as InfoIcon } from '../../images/info.svg';
@@ -10,6 +10,12 @@ const AboutPage = () => {
         </Col>
         <Col md={6} >
             <p>{BasicInfo.about.para1}</p>
+            <p>{BasicInfo.about.para2}</p>
+            <div>
+                {BasicInfo.about.tech.map((item, index) => (
+                    <Badge bg="primary">{item}</Badge>
+                ))}
+            </div>
         </Col>
     </Row>)
 }

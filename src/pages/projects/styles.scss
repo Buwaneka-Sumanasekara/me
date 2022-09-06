@@ -1,0 +1,41 @@
+@import "../../theme/index.scss";
+
+.page.product-page {
+    color: $primary;
+
+    .menu-buttons {
+        display: flex;
+
+    }
+
+    .info-left {
+        svg {
+            width: 80px;
+            height: 80px;
+
+            path {
+                fill: $secondary
+            }
+        }
+
+    }
+
+    .item {
+        padding-bottom: $padding-item;
+
+
+
+        .item-tag-caption {
+            color: $secondary;
+        }
+
+        .item-tags {
+            .btn {
+                margin-right: $padding-default;
+            }
+
+            padding-top: $padding-default;
+            padding-bottom: $padding-default;
+        }
+    }
+}

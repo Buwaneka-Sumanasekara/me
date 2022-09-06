@@ -1,29 +1,65 @@
-{
-    "experience": [
-        {
-            "company": "Interlective Pvt Ltd",
-            "logo": "",
-            "duration": {
-                "start": "2018-02-01",
-                "end": "-"
+[
+    {
+        "company": "Interlective",
+        "designations": [
+            {
+                "title": "Senior Software Engineer",
+                "from": "2018 Feb",
+                "to": "Present"
+            }
+        ],
+        "logo": "",
+        "web": "https://interlective.com/",
+        "tech": [
+            "React",
+            "React Native",
+            "Laravel/PHP",
+            "Wordpress",
+            "Node"
+        ]
+    },
+    {
+        "company": "Software Stylers",
+        "designations": [
+            {
+                "title": "Senior Software Engineer",
+                "to": "2018 Feb",
+                "from": "2017 Jan"
             },
-            "web": "https://interlective.com/",
-            "tech": [
-                "Laravel/PHP",
-                "React",
-                "React Native",
-                "Wordpress",
-                "Node"
-            ],
-            "points": [
-                "Mobile application development projects",
-                "WordPress plugin developments",
-                "PWA Application developments",
-                "Project estimation and project initiation",
-                "Work with software development and testing",
-                "Lead Team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance requirements.",
-                "Develop UI component library using Storybook"
-            ]
-        }
-    ]
-}
+            {
+                "title": "Software Engineer",
+                "to": "2017 Jan",
+                "from": "2015 Dec"
+            }
+        ],
+        "logo": "",
+        "web": "https://interlective.com/",
+        "tech": [
+            "Scala",
+            "Play framework",
+            "Delphi"
+        ]
+    },
+    {
+        "company": "MyPOS Software Solutions",
+        "designations": [
+            {
+                "title": "Software Developer",
+                "to": "2015 Dec",
+                "from": "2015 Mar"
+            },
+            {
+                "title": "Trainee Software Developer",
+                "to": "2015 Mar",
+                "from": "2014 Sep"
+            }
+        ],
+        "logo": "",
+        "web": "https://interlective.com/",
+        "tech": [
+            "Scala",
+            "Play framework",
+            "Delphi"
+        ]
+    }
+]
