@@ -33,7 +33,10 @@
             "Firebase",
             "C#",
             "PHP",
-            "Wordpress"
+            "Wordpress",
+            "Git Hub Actions",
+            "CI/CD",
+            "App store distribution"
         ]
     }
 }

@@ -1,9 +1,10 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button, Badge } from "react-bootstrap";
 import "./styles.scss"
 import EduInfo from "../../data/education.json"
 import { ReactComponent as EducationIcon } from '../../images/edu.svg';
 import Steps from "../../components/Steps";
+import { Link } from "react-router-dom";
 
 const EducationPage = () => {
     return (<Row className="page">
@@ -18,6 +19,10 @@ const EducationPage = () => {
                         <strong>{value.award}</strong>
                         <p>{value.name}</p>
                         <label>{value.year}</label>
+                        {value.link && (
+                            <div className="pt-2"><a target="_blank" href={value.link} ><Button variant="outline-primary" >{`Show credentials `}</Button></a> </div>
+                        )}
+
                     </Steps.Item>
                 ))}
 
