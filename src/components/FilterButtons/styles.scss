@@ -1,0 +1,33 @@
+@import "../../theme/index.scss";
+
+.filter-button {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-width: 0;
+
+    svg {
+        width: 30px;
+        height: 30px;
+
+        path {
+            fill: $primary
+        }
+    }
+
+}
+
+.filter-button:hover,
+.active {
+    background-color: $primary;
+
+    svg {
+
+        path {
+            fill: #ffff
+        }
+    }
+}
