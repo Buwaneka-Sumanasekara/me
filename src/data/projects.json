@@ -7,7 +7,8 @@
             "React Query",
             "AWS cognito",
             "IOS",
-            "Android"
+            "Android",
+            "Firebase"
         ],
         "type": "mobile",
         "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
@@ -144,6 +145,35 @@
         "type": "web",
         "link": "https://iot.bridgealliance.com/login",
         "des": "This is a web portal which allows users to manage their article posts and member management"
+    },
+    {
+        "title": "Wedding Planner - PWA",
+        "subtitle": "",
+        "tech": [
+            "React JS",
+            "Firebase",
+            "Firebase Real time Database",
+            "Firebase Authentication",
+            "Firebase Hosting"
+        ],
+        "type": "web",
+        "link": "https://github.com/Buwaneka-Sumanasekara/pwa-wedding-planer",
+        "des": "This is a simple wedding planner management app, which manage guests and sending invitations"
+    },
+    {
+        "title": "Wedding Planner - Backend",
+        "subtitle": "",
+        "tech": [
+            "Node",
+            "Firebase",
+            "Firebase Real time Database",
+            "Firebase Authentication",
+            "Firebase Functions",
+            "Typescript"
+        ],
+        "type": "web",
+        "link": "https://github.com/Buwaneka-Sumanasekara/wedding-planner-backend",
+        "des": "This is a simple wedding planner management app, which manage guests and sending invitations"
     },
     {
         "title": "Bridge Alliance Wordpress Plugin",
