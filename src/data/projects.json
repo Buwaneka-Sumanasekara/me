@@ -8,7 +8,9 @@
             "AWS cognito",
             "IOS",
             "Android",
-            "Firebase"
+            "Firebase",
+            "Fastlane",
+            "Github Actions"
         ],
         "type": "mobile",
         "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
