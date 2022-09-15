@@ -1,4 +1,4 @@
-@import "theme1.scss";
+@import "theme2.scss";
 
 $padding-default: 15px;
 $padding-nav: 20px;
@@ -13,11 +13,13 @@ $default-border-radius: 8px;
 
 .btn-primary {
     background-color: $primary;
+    border-color: $primary;
 }
 
 .btn-outline-primary {
     border-color: $primary;
     color: $primary;
+    border-color: $primary;
 }
 
 .bg-primary {

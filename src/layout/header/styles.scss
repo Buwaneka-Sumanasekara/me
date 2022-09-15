@@ -1,7 +1,7 @@
 @import "../../theme/index.scss";
 
 .header {
-    color: $secondary;
+    color: $primary;
 
     #header-intro-mobile {
         display: none;
@@ -43,14 +43,10 @@
         }
 
         h1 {
-            color: $primary;
+            color: $primary-text;
             font-weight: bold
         }
 
-        h4 {
-            color: $secondary;
-
-        }
 
     }
 

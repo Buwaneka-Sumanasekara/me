@@ -12,8 +12,10 @@
         "tech": [
             "React Native",
             "React",
+            "Redux",
             "Laravel",
             "Bootsrap",
+            "Javascript",
             "Typescript",
             "AWS cognito",
             "AWS EC2",
@@ -31,12 +33,16 @@
             "My SQL",
             "SQL",
             "Firebase",
+            "Java",
             "C#",
             "PHP",
             "Wordpress",
             "Git Hub Actions",
             "CI/CD",
-            "App store distribution"
+            "App store distribution",
+            "Android app distribution",
+            "Firebase",
+            "Firebase Realtime Database"
         ]
     }
 }

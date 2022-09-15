@@ -1,7 +1,7 @@
 @import "../../theme/index.scss";
 
 .page {
-    color: $secondary;
+    color: $primary-text;
 
     .info-left {
         svg {
@@ -9,7 +9,7 @@
             height: 80px;
 
             path {
-                fill: $secondary
+                fill: $primary-text
             }
         }
 
@@ -21,7 +21,7 @@
 
 
         .item-tag-caption {
-            color: $secondary;
+            color: $primary-text;
         }
 
         .item-tags {
@@ -33,9 +33,12 @@
             padding-bottom: $padding-default;
         }
 
-        h4,
+        h4 {
+            color: $primary-text  !important;
+        }
+
         p {
-            color: $primary  !important;
+            color: $secondary-text  !important;
         }
 
         img {

@@ -1,7 +1,7 @@
 @import "../../theme/index.scss";
 
 .page {
-    color: $secondary;
+    color: $secondary-text;
 
     .info-left {
         svg {
@@ -9,7 +9,7 @@
             height: 80px;
 
             path {
-                fill: $secondary
+                fill: $primary-text
             }
         }
 

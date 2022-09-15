@@ -1,5 +1,3 @@
-import React from "react";
-import { ReactComponent as Profile } from '../../images/profile.svg';
 import NavigationKeys from "../../navigation/NavigationKeys";
 import NavIcon from "../NavIcon";
 import "./styles.scss"

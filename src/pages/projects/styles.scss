@@ -1,7 +1,7 @@
 @import "../../theme/index.scss";
 
 .page.product-page {
-    color: $primary;
+    color: $primary-text;
 
     .menu-buttons {
         display: flex;
@@ -14,7 +14,7 @@
             height: 80px;
 
             path {
-                fill: $secondary
+                fill: $primary-text
             }
         }
 
@@ -32,9 +32,10 @@
         .item-tags {
             .btn {
                 margin-right: $padding-default;
+                margin-top: $padding-default*0.5;
             }
 
-            padding-top: $padding-default;
+            padding-top: $padding-default*0.5;
             padding-bottom: $padding-default;
         }
     }

@@ -2,7 +2,7 @@
 
 .steps {
     display: flex;
-    color: $primary;
+    color: $primary-text;
 
     .step-item {
 
@@ -23,14 +23,16 @@
             width: 20px;
             height: 20px;
             border-radius: 20px;
-            background-color: $primary;
+            background-color: $primary-text;
+
+            margin-top: 6px;
         }
 
         .step-item-line {
             border-width: 0;
             border-left-width: 2px;
             border-style: solid;
-            border-left-color: $primary;
+            border-left-color: $primary-text;
             margin-left: -10px;
             margin-right: $padding-default;
         }
@@ -49,13 +51,13 @@
 }
 
 .secondary {
-    color: $secondary  !important;
+    color: $secondary-text  !important;
 
     .step-item-line {
-        border-color: $secondary  !important;
+        border-color: $secondary-text  !important;
     }
 
     .step-item-icon {
-        background-color: $secondary  !important;
+        background-color: $secondary-text  !important;
     }
 }

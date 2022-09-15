@@ -10,7 +10,12 @@
             "Android",
             "Firebase",
             "Fastlane",
-            "Github Actions"
+            "Github Actions",
+            "Unit Tests",
+            "Testing Automation",
+            "Gauge",
+            "Appium",
+            "React Query"
         ],
         "type": "mobile",
         "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
@@ -23,7 +28,8 @@
             "React Native",
             "Redux",
             "IOS",
-            "Android"
+            "Android",
+            "Redux"
         ],
         "type": "mobile",
         "des": "This is a money transfer app which allows to send money to selected countries from United Kingdom. And Its allowed to maintain your own beneficiaries and identities",
@@ -36,7 +42,8 @@
             "React Native",
             "Redux",
             "IOS",
-            "Android"
+            "Android",
+            "Redux"
         ],
         "type": "mobile",
         "des": "This is a money transfer app which allows to send money to selected countries from United Kingdom. And Its allowed to maintain your own beneficiaries and identities",
@@ -49,7 +56,10 @@
             "React Native",
             "Redux",
             "IOS",
-            "Android"
+            "Android",
+            "Google Pay",
+            "Apple Pay",
+            "Redux"
         ],
         "type": "mobile",
         "des": "This is recipe app which allows users to access thousands of Free and premium recipes. This app includes Google wallet, Apple pay implementation for subscriptions",
@@ -62,7 +72,8 @@
             "React Native",
             "Redux",
             "IOS",
-            "Android"
+            "Android",
+            "Redux"
         ],
         "type": "mobile",
         "des": "Leap Initiative is a new programme developed by the Social Development Centre in conjunction with the Islamic Religious Council Singapore (MUIS) to provide you and your family with the support and resources to help you thrive.",
@@ -76,7 +87,8 @@
             "Redux",
             "IOS",
             "Android",
-            "Stripe Payment gateway"
+            "Stripe",
+            "Redux"
         ],
         "type": "mobile",
         "des": "Fetch me is a delivery app which allows to register fetchers and buyers in a sames app. This includes stripe payment integration and verified fetcher options. Buyer can simple place a order with pick up place and delivery please and instruction etc and try the order receiving process when it connected with a fetcher",
@@ -142,7 +154,8 @@
         "subtitle": "Bridge Alliance",
         "tech": [
             "React JS",
-            "GraphQL"
+            "GraphQL",
+            "Redux"
         ],
         "type": "web",
         "link": "https://iot.bridgealliance.com/login",
@@ -156,7 +169,9 @@
             "Firebase",
             "Firebase Real time Database",
             "Firebase Authentication",
-            "Firebase Hosting"
+            "Firebase Hosting",
+            "Redux",
+            "React-bootrap"
         ],
         "type": "web",
         "link": "https://github.com/Buwaneka-Sumanasekara/pwa-wedding-planer",
