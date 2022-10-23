@@ -15,7 +15,8 @@
             "Testing Automation",
             "Gauge",
             "Appium",
-            "React Query"
+            "React Query",
+            "Redux"
         ],
         "type": "mobile",
         "des": "GoTradie is a platform which allows tradies (eg: Electricians, Plumbers, carpenters) to manage their business and maintain own team and do communications between them and manage their worksites etc. Also it allows to communicate with their customer and update progress of the site. Gotradie chat has many features like messaging, sending images, videos and document through the chats. also business owners can maintain business profile with more information about their businesses and owned licenses etc.",
@@ -114,7 +115,7 @@
             "npm"
         ],
         "type": "plugin",
-        "des": "This is a component library which was build specifically for gotradie project. These components will reuse as component library to their mobile and web projects"
+        "des": "This is a component library which was built specifically for the Gotradie project. These components will reuse as component libraries for their mobile and web projects"
     },
     {
         "title": "GoTradie Web App",
