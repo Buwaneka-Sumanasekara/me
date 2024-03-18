@@ -1,11 +1,33 @@
 [
+  {
+        "company": "GoTradie Holding Pte Ltd",
+        "designations": [
+            {
+                "title": "Lead Engineer",
+                "from": "2024 Feb",
+                "to": "Present"
+            }
+        ],
+        "logo": "",
+        "web": "https://www.gotradie.com.au/",
+        "tech": [
+            "React",
+            "React Native",
+            "Node"
+        ]
+    },
     {
         "company": "Interlective",
         "designations": [
             {
+                "title": "Associate Tech Lead",
+                "from": "2023 June",
+                "to": "2024 Feb"
+            },
+            {
                 "title": "Senior Software Engineer",
                 "from": "2018 Feb",
-                "to": "Present"
+                "to": "2023 June"
             }
         ],
         "logo": "",
