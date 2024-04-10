@@ -43,7 +43,15 @@
             "App store distribution",
             "Android app distribution",
             "Firebase",
-            "Firebase Realtime Database"
+            "Firebase Realtime Database",
+            "Firebase Firestore",
+            "Firebase Cloud Functions",
+            "Firebase Cloud Messaging",
+            "Laravel",
+            "AWS",
+            "Sentry"
+            
+            
         ]
     }
 }
