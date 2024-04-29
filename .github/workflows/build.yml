@@ -11,18 +11,19 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
 
-      - name: Install dependencies
-        run: npm install  # Modify if you're using a different package manager
+      - name: Yarn Install
+        shell: bash
+        run: yarn install --frozen-lockfile
 
       - name: Build website
-        run: npm run build  # Replace with your build command
+        run: yarn predeploy 
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
