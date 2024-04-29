@@ -1,26 +1,32 @@
-name: Deploy personal website
-run-name: "${{ github.actor }} is creating a build \U0001F680"
-'on':
+name: Deploy to GitHub Pages
+
+on:
   push:
     branches:
-      - main
+      - main  # Change to your main branch name if different
+
 jobs:
-  run-build:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
+
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v2
         with:
-          node-version: '20'
-      - name: Run npm install
-        run: npm install
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install  # Modify if you're using a different package manager
+
       - name: Build website
-        uses: npm run build
-      - name: Deploy to Github pages
-        uses: JamesIves/github-pages-deploy-action@releases/v4
+        run: npm run build  # Replace with your build command
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          ACCESS_TOKEN: '${{ secrets.ACCESS_TOKEN }}'
-          BRANCH: gh-pages
-          FOLDER: dist
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # Replace with your GitHub access token stored in repository secrets
+          BRANCH: gh-pages  # Branch to deploy to
+          FOLDER: dist  # Folder containing your built website files
