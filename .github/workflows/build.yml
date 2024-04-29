@@ -1,40 +1,30 @@
-name: Deploy to GitHub Pages
+name: Build and deploy 
 
 on:
   push:
     branches:
-      - main  # Change to your main branch name if different
+      - master
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
         with:
-            persist-credentials: false
+          persist-credentials: false
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Install 🔧
+        run: yarn install
+
+      - name: Build 🏗️
+        run: |
+          yarn clean
+          yarn build
+
+      - name: Deploy to GH Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
         with:
-            node-version-file: '.nvmrc'
-            registry-url: 'https://registry.npmjs.org'
-
-      - name: Install Yarn
-        run: npm install -g yarn
-
-      - name: Install packages
-        run: yarn install --frozen-lockfile
-
-      - name: build project
-        run: yarn predeploy
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            BRANCH: gh-pages
-            FOLDER: dist
-
-     
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
