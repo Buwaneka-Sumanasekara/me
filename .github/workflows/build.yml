@@ -1,30 +1,26 @@
-name: Build personal website
-run-name: ${{ github.actor }} is creating a build 🚀
-on:
-    push:
-      branches: [main]
+name: Deploy personal website
+run-name: "${{ github.actor }} is creating a build \U0001F680"
+'on':
+  push:
+    branches:
+      - main
 jobs:
   run-build:
     runs-on: ubuntu-latest
     steps:
-     - name: Checkout code
-       uses: actions/checkout@v4
-
-     - name: Setup Node.js
-       uses: actions/setup-node@v4
-       with:
-         node-version: '20'
-
-     - name: Run npm install
-       run: npm install
-
-     - name: upload project
-       uses: actions/upload-pages-artifact
-
-     - name: Deploy to Github pages
-       uses: actions/deploy-pages@v4
-       
-       
-    
-
-
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run npm install
+        run: npm install
+      - name: Build website
+        uses: npm run build
+      - name: Deploy to Github pages
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          ACCESS_TOKEN: '${{ secrets.ACCESS_TOKEN }}'
+          BRANCH: gh-pages
+          FOLDER: dist
