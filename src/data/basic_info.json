@@ -18,6 +18,7 @@
             "Bootsrap",
             "Javascript",
             "Typescript",
+            "AWS Services",
             "AWS cognito",
             "AWS EC2",
             "Storybook",
@@ -26,7 +27,6 @@
             "Play framework",
             "Java",
             "Javascript",
-            "Fast lane",
             "Redux",
             "GraphQL",
             "Gulp",
@@ -38,8 +38,9 @@
             "C#",
             "PHP",
             "Wordpress",
-            "Git Hub Actions",
+            "GitHub Actions",
             "CI/CD",
+            "Fastlane",
             "App store distribution",
             "Android app distribution",
             "Firebase",
@@ -48,9 +49,14 @@
             "Firebase Cloud Functions",
             "Firebase Cloud Messaging",
             "Laravel",
-            "AWS",
-            "Sentry"
-            
+            "Sentry",
+            "GraphQL",
+            "Jest",
+            "Enzyme",
+            "Gauge",
+            "RESTFul API",
+            "Docker",
+            "Stream io (Video/Audio calls)"
             
         ]
     }
