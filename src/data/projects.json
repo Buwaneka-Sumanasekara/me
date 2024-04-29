@@ -89,7 +89,7 @@
             "Redux",
             "IOS",
             "Android",
-            "Stripe",
+            "Stripe"
         ],
         "type": "mobile",
         "des": "Fetch me is a delivery app which allows to register fetchers and buyers in a sames app. This includes stripe payment integration and verified fetcher options. Buyer can simple place a order with pick up place and delivery please and instruction etc and try the order receiving process when it connected with a fetcher",
