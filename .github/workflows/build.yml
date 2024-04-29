@@ -6,28 +6,35 @@ on:
       - main  # Change to your main branch name if different
 
 jobs:
-  deploy:
+  create-environment:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+            persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+            node-version-file: '.nvmrc'
+            registry-url: 'https://registry.npmjs.org'
 
-      - name: Yarn Install
-        shell: bash
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Install packages
         run: yarn install --frozen-lockfile
 
-      - name: Build website
-        run: yarn run predeploy 
+      - name: build project
+        run: yarn predeploy
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # Replace with your GitHub access token stored in repository secrets
-          BRANCH: gh-pages  # Branch to deploy to
-          FOLDER: dist  # Folder containing your built website files
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            BRANCH: gh-pages
+            FOLDER: dist
+
+     
+
