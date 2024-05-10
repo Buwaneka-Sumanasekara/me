@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
-import "./styles.scss"
+
 import ProjectInfo from "../../data/projects.json"
 import { ReactComponent as ProjectIcon } from '../../images/project.svg';
-
 
 import Button from 'react-bootstrap/Button';
 import FilterButtonIcon from "../../components/FilterButtons";
 import ContactIcon from "../../components/ContactIcon";
 import Globals from "../../constants/Globals";
 
-
+import "./styles.scss"
 
 enum Filter {
     mobile = "mobile",

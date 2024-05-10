@@ -1,12 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
+
 import "./styles.scss"
 import RecInfo from "../../data/recommendations.json";
 import BasicInfo from "../../data/basic_info.json";
 import { ReactComponent as PeopleIcon } from '../../images/people.svg';
 import { ReactComponent as PersonIcon } from '../../images/person.svg';
 import Globals from "../../constants/Globals";
+
+
 const RecommendationPage = () => {
     return (
         <React.Fragment>

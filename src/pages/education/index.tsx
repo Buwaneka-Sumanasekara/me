@@ -1,12 +1,14 @@
 import React from "react";
 import { Col, Row, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
-import "./styles.scss"
+
+
 import EduInfo from "../../data/education.json"
 import { ReactComponent as EducationIcon } from '../../images/edu.svg';
 import Steps from "../../components/Steps";
 import Globals from "../../constants/Globals";
 
+import "./styles.scss"
 
 const EducationPage = () => {
     return (

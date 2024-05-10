@@ -1,11 +1,16 @@
 import React from "react";
 import { Badge, Col, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
-import "./styles.scss"
+
+
 import BasicInfo from "../../data/basic_info.json";
 import { ReactComponent as InfoIcon } from '../../images/info.svg';
 import ContactList from "../../components/ContactList";
 import Globals from "../../constants/Globals";
+
+import "./styles.scss"
+
+
 const AboutPage = () => {
     return (
         <React.Fragment>
