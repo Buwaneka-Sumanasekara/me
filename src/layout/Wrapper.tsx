@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import Header from "./header/Header";
 import Footer from "./Footer";
 import Layout from "./back/BackLayout";
-import { Container } from "react-bootstrap";
 
 type MainLayoutProps = {
     children: React.ReactNode
