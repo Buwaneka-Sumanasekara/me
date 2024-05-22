@@ -270,5 +270,18 @@
         ],
         "type": "desktop",
         "des": "This is a application for integrating Dialog star points (loyalty points schema) with MyPOS point of sales application"
+    },
+    {
+        "title": "Sahan Traders E-Commerce Web app",
+        "subtitle": "Client - Osaka Sahan International Traders",
+        "tech": [
+            "Laravel - PHP",
+            "MySQL",
+            "React JS",
+            "Stripe",
+            "Ship&Co API"
+        ],
+        "type": "web",
+        "des": "E-Commerce website which selling spare-parts and get inquire vehicles in japan."
     }
 ]
