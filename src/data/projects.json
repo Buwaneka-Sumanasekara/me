@@ -68,16 +68,26 @@
         "link": "https://play.google.com/store/apps/details?id=com.interlective.fkf&hl=en"
     },
     {
-        "title": "Leap",
+        "title": "Leap (Mobile App)",
         "subtitle": "Al Istiqamah Mosque | Singapore",
         "tech": [
             "React Native",
             "Redux",
             "IOS",
-            "Android",
-            "Laravel"
+            "Android"
         ],
         "type": "mobile",
+        "des": "Leap Initiative is a new programme developed by the Social Development Centre in conjunction with the Islamic Religious Council Singapore (MUIS) to provide you and your family with the support and resources to help you thrive.",
+        "link": "https://leapinitiative.sg/"
+    },
+    {
+        "title": "Leap (Backend)",
+        "subtitle": "Al Istiqamah Mosque | Singapore",
+        "tech": [
+            "Laravel - PHP",
+            "MySQL"
+        ],
+        "type": "web",
         "des": "Leap Initiative is a new programme developed by the Social Development Centre in conjunction with the Islamic Religious Council Singapore (MUIS) to provide you and your family with the support and resources to help you thrive.",
         "link": "https://leapinitiative.sg/"
     },
