@@ -1,11 +1,26 @@
 [
-  {
+    {
+        "company": "Wire Apps (UK - Remote)",
+        "designations": [
+            {
+                "title": "Senior Software Engineer",
+                "from": "2024 Jun",
+                "to": "Present"
+            }
+        ],
+        "logo": "",
+        "tech": [
+            "React",
+            "React Native",
+            "Node"
+        ]
+    },{
         "company": "GoTradie Holdings Pty Ltd (Australia - Remote)",
         "designations": [
             {
                 "title": "Lead Engineer",
                 "from": "2020 Dec",
-                "to": "Present"
+                "to": "2024 Jun"
             }
         ],
         "logo": "",

@@ -15,7 +15,7 @@ const MainLayout = (props: MainLayoutProps) => {
 
     return <Layout>
         <Header />
-        <Row>
+        <Row className="pt-4">
             <Col>
                 {children}
             </Col>

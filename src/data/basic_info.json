@@ -56,7 +56,10 @@
             "Gauge",
             "RESTFul API",
             "Docker",
-            "Stream io (Video/Audio calls)"
+            "Stream io (Video/Audio calls)",
+            "Next JS",
+            "Remix JS",
+            "Zustand"
             
         ]
     }

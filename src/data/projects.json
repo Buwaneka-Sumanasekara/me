@@ -1,5 +1,24 @@
 [
-    {
+     {
+        "title": "Ferry Mobile App",
+        "subtitle": "Ferry | USA",
+        "tech": [
+            "React Native",
+            "React Query",
+            "AWS",
+            "IOS",
+            "Android",
+            "Firebase",
+            "Fastlane",
+            "Github Actions",
+            "Unit Tests (Jest)",
+            "Zustand",
+            "Typescript"
+        ],
+        "type": "mobile",
+        "des": "Fintech mobile application ",
+        "link": "https://www.useferry.com/"
+    },{
         "title": "GoTradie Mobile App",
         "subtitle": "Gotradie | Australia",
         "tech": [
@@ -79,6 +98,36 @@
         "type": "mobile",
         "des": "Leap Initiative is a new programme developed by the Social Development Centre in conjunction with the Islamic Religious Council Singapore (MUIS) to provide you and your family with the support and resources to help you thrive.",
         "link": "https://leapinitiative.sg/"
+    },
+    {
+        "title": "Ferry Web App",
+        "subtitle": "Ferry | USA",
+        "tech": [
+            "Remix JS",
+            "React JS",
+            "React Query",
+            "AWS",
+            "Zustand",
+            "Typescript"
+        ],
+        "type": "web",
+        "des": "Fintech web application ",
+        "link": "https://www.useferry.com/"
+    },
+    {
+        "title": "Ferry Tip portal",
+        "subtitle": "Ferry | USA",
+        "tech": [
+            "Remix JS",
+            "React JS",
+            "React Query",
+            "AWS",
+            "Zustand",
+            "Typescript"
+        ],
+        "type": "web",
+        "des": "Tip out and tip distribution",
+        "link": "https://www.useferry.com/"
     },
     {
         "title": "Leap (Backend)",
