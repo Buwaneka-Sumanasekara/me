@@ -20,7 +20,7 @@ const AboutPage = () => {
       <Row className="about">
         <Col
           md={2}
-          className={"d-none d-md-block d-lg-block info-left text-center"}
+          className={"d-none d-md-block d-lg-block info-left text-center icon"}
         >
           <InfoIcon />
         </Col>
